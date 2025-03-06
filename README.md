@@ -12,27 +12,20 @@ In the context of the code, the hyperbolic octahedron is represented using param
 
 The parametric equations used in the code to define the hyperbolic octahedron are:
 
-\[
-\begin{cases}
-x = (\cos(u) \cdot \cos(v))^3 \\
-y = (\sin(u) \cdot \cos(v))^3 \\
-z = (\sin(v))^3
-\end{cases}
-\]
+![Image](https://github.com/user-attachments/assets/fa67b6db-f19d-4adc-9c4d-b0172f1cae5b)
 
 Here’s a breakdown of the components:
 
 1. **Parameters \( u \) and \( v \)**:
-   - \( u \) and \( v \) are the parameters that define the surface of the hyperbolic octahedron.
-   - \( u \) typically ranges from \(-\frac{\pi}{2}\) to \(\frac{\pi}{2}\), and \( v \) ranges from \(-\pi\) to \(\pi\).
-   - These parameters act like latitude and longitude on a sphere, but they are used to define a hyperbolic surface instead.
+
+   ![Image](https://github.com/user-attachments/assets/fb3e7d23-3b2e-42d3-8c89-9ecf2708f5b6)
 
 2. **Trigonometric Functions**:
-   - \( \cos(u) \) and \( \sin(u) \) are used to create periodic behavior in the \( x \) and \( y \) directions.
-   - \( \cos(v) \) and \( \sin(v) \) are used to create periodic behavior in the \( z \) direction.
+   - cos(u) and sin(u) are used to create periodic behavior in the \( x \) and \( y \) directions.
+   - cos(v) \) and sin(v) are used to create periodic behavior in the \( z \) direction.
 
 3. **Cubing the Results**:
-   - The results of the trigonometric functions are raised to the power of 3 (\( (\cdot)^3 \)).
+   - The results of the trigonometric functions are raised to the power of 3.
    - This cubing operation introduces curvature and creates the hyperbolic shape. Without the cubing, the equations would define a simpler surface, such as a sphere or ellipsoid.
 
 4. **Mapping to 3D Space**:
